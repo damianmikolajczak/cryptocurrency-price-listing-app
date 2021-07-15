@@ -9,6 +9,7 @@
 
 @interface ViewController ()
 @property NSMutableArray *tickers;
+
 @end
 
 @implementation ViewController
@@ -18,7 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self fetchDataFromApi];
-    
+    [_tickersTable setDataSource:self];
+    [_tickersTable setDelegate:self];
 }
 
 - (void)fetchDataFromApi {
@@ -29,11 +31,36 @@
     NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error){
         if (data == nil) { return; }
         
-        self.tickers = [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
+        NSDictionary *result = [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
+        
+        self.tickers = [result valueForKey:@"data"];
         NSLog(@"%@",self.tickers);
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tickersTable reloadData];
+        });
     }];
     
     [task resume];
 }
+
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    NSDictionary *ticker = [tickers objectAtIndex:indexPath.row];
+    TickerTableViewCell *cell = [_tickersTable dequeueReusableCellWithIdentifier:@"TickerCell"
+                                                                forIndexPath:indexPath];
+    [cell.name setText: [ticker valueForKey:@"name"]];
+    [cell.symbol setText: [ticker valueForKey:@"symbol"]];
+    [cell.price setText: [ticker valueForKey:@"price_usd"]];
+    return cell;
+}
+
+- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [tickers count];
+}
+
+- (BOOL)shouldUpdateFocusInContext:(nonnull UIFocusUpdateContext *)context {
+    return YES;
+}
+
 
 @end

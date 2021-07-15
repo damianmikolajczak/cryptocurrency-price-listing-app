@@ -15,6 +15,7 @@
 		2DACF25A26A0825F00391B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DACF25926A0825F00391B96 /* Assets.xcassets */; };
 		2DACF25D26A0825F00391B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DACF25B26A0825F00391B96 /* LaunchScreen.storyboard */; };
 		2DACF26026A0825F00391B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF25F26A0825F00391B96 /* main.m */; };
+		2DACF26E26A0B52000391B96 /* TickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		2DACF25C26A0825F00391B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DACF25E26A0825F00391B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DACF25F26A0825F00391B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DACF26C26A0B52000391B96 /* TickerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerTableViewCell.h; sourceTree = "<group>"; };
+		2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				2DACF24E26A0825D00391B96 /* SceneDelegate.m */,
 				2DACF25026A0825D00391B96 /* ViewController.h */,
 				2DACF25126A0825D00391B96 /* ViewController.m */,
+				2DACF26C26A0B52000391B96 /* TickerTableViewCell.h */,
+				2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */,
 				2DACF25326A0825D00391B96 /* Main.storyboard */,
 				2DACF25926A0825F00391B96 /* Assets.xcassets */,
 				2DACF25B26A0825F00391B96 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				2DACF25226A0825D00391B96 /* ViewController.m in Sources */,
 				2DACF24C26A0825D00391B96 /* AppDelegate.m in Sources */,
 				2DACF24F26A0825D00391B96 /* SceneDelegate.m in Sources */,
+				2DACF26E26A0B52000391B96 /* TickerTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
