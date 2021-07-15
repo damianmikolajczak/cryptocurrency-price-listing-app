@@ -50,7 +50,7 @@
                                                                 forIndexPath:indexPath];
     [cell.name setText: [ticker valueForKey:@"name"]];
     [cell.symbol setText: [ticker valueForKey:@"symbol"]];
-    [cell.price setText: [ticker valueForKey:@"price_usd"]];
+    [cell.price setText: [NSString stringWithFormat:@"$%@",[ticker valueForKey:@"price_usd"]]];
     return cell;
 }
 
@@ -60,6 +60,17 @@
 
 - (BOOL)shouldUpdateFocusInContext:(nonnull UIFocusUpdateContext *)context {
     return YES;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    TickerDetailViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"TICKER_DETAIL_VC"];
+    NSDictionary *ticker = [tickers objectAtIndex:indexPath.row];
+    
+    [vc setTicker:ticker];
+    [vc setModalPresentationStyle:UIModalPresentationPopover];
+    [self presentViewController:vc animated:YES completion:NULL];
 }
 
 

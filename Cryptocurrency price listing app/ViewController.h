@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "TickerTableViewCell.h"
+#import "TickerDetailViewController.h"
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property IBOutlet UITableView *tickersTable;
