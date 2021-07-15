@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DACF24C26A0825D00391B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF24B26A0825D00391B96 /* AppDelegate.m */; };
+		2DACF24F26A0825D00391B96 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF24E26A0825D00391B96 /* SceneDelegate.m */; };
+		2DACF25226A0825D00391B96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF25126A0825D00391B96 /* ViewController.m */; };
+		2DACF25526A0825D00391B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DACF25326A0825D00391B96 /* Main.storyboard */; };
+		2DACF25826A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF25626A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld */; };
+		2DACF25A26A0825F00391B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DACF25926A0825F00391B96 /* Assets.xcassets */; };
+		2DACF25D26A0825F00391B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DACF25B26A0825F00391B96 /* LaunchScreen.storyboard */; };
+		2DACF26026A0825F00391B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF25F26A0825F00391B96 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DACF24726A0825D00391B96 /* Cryptocurrency price listing app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cryptocurrency price listing app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DACF24A26A0825D00391B96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DACF24B26A0825D00391B96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DACF24D26A0825D00391B96 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2DACF24E26A0825D00391B96 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2DACF25026A0825D00391B96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DACF25126A0825D00391B96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DACF25426A0825D00391B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DACF25726A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cryptocurrency_price_listing_app.xcdatamodel; sourceTree = "<group>"; };
+		2DACF25926A0825F00391B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DACF25C26A0825F00391B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DACF25E26A0825F00391B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DACF25F26A0825F00391B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DACF24426A0825D00391B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DACF23E26A0825D00391B96 = {
+			isa = PBXGroup;
+			children = (
+				2DACF24926A0825D00391B96 /* Cryptocurrency price listing app */,
+				2DACF24826A0825D00391B96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DACF24826A0825D00391B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DACF24726A0825D00391B96 /* Cryptocurrency price listing app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DACF24926A0825D00391B96 /* Cryptocurrency price listing app */ = {
+			isa = PBXGroup;
+			children = (
+				2DACF24A26A0825D00391B96 /* AppDelegate.h */,
+				2DACF24B26A0825D00391B96 /* AppDelegate.m */,
+				2DACF24D26A0825D00391B96 /* SceneDelegate.h */,
+				2DACF24E26A0825D00391B96 /* SceneDelegate.m */,
+				2DACF25026A0825D00391B96 /* ViewController.h */,
+				2DACF25126A0825D00391B96 /* ViewController.m */,
+				2DACF25326A0825D00391B96 /* Main.storyboard */,
+				2DACF25926A0825F00391B96 /* Assets.xcassets */,
+				2DACF25B26A0825F00391B96 /* LaunchScreen.storyboard */,
+				2DACF25E26A0825F00391B96 /* Info.plist */,
+				2DACF25F26A0825F00391B96 /* main.m */,
+				2DACF25626A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld */,
+			);
+			path = "Cryptocurrency price listing app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DACF24626A0825D00391B96 /* Cryptocurrency price listing app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DACF26326A0825F00391B96 /* Build configuration list for PBXNativeTarget "Cryptocurrency price listing app" */;
+			buildPhases = (
+				2DACF24326A0825D00391B96 /* Sources */,
+				2DACF24426A0825D00391B96 /* Frameworks */,
+				2DACF24526A0825D00391B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cryptocurrency price listing app";
+			productName = "Cryptocurrency price listing app";
+			productReference = 2DACF24726A0825D00391B96 /* Cryptocurrency price listing app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DACF23F26A0825D00391B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2DACF24626A0825D00391B96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2DACF24226A0825D00391B96 /* Build configuration list for PBXProject "Cryptocurrency price listing app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DACF23E26A0825D00391B96;
+			productRefGroup = 2DACF24826A0825D00391B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DACF24626A0825D00391B96 /* Cryptocurrency price listing app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DACF24526A0825D00391B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DACF25D26A0825F00391B96 /* LaunchScreen.storyboard in Resources */,
+				2DACF25A26A0825F00391B96 /* Assets.xcassets in Resources */,
+				2DACF25526A0825D00391B96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DACF24326A0825D00391B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DACF26026A0825F00391B96 /* main.m in Sources */,
+				2DACF25826A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld in Sources */,
+				2DACF25226A0825D00391B96 /* ViewController.m in Sources */,
+				2DACF24C26A0825D00391B96 /* AppDelegate.m in Sources */,
+				2DACF24F26A0825D00391B96 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DACF25326A0825D00391B96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DACF25426A0825D00391B96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DACF25B26A0825F00391B96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DACF25C26A0825F00391B96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DACF26126A0825F00391B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DACF26226A0825F00391B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DACF26426A0825F00391B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP6JG8Y485;
+				INFOPLIST_FILE = "Cryptocurrency price listing app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Cryptocurrency-price-listing-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DACF26526A0825F00391B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP6JG8Y485;
+				INFOPLIST_FILE = "Cryptocurrency price listing app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Cryptocurrency-price-listing-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DACF24226A0825D00391B96 /* Build configuration list for PBXProject "Cryptocurrency price listing app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DACF26126A0825F00391B96 /* Debug */,
+				2DACF26226A0825F00391B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DACF26326A0825F00391B96 /* Build configuration list for PBXNativeTarget "Cryptocurrency price listing app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DACF26426A0825F00391B96 /* Debug */,
+				2DACF26526A0825F00391B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DACF25626A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DACF25726A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodel */,
+			);
+			currentVersion = 2DACF25726A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodel */;
+			path = Cryptocurrency_price_listing_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DACF23F26A0825D00391B96 /* Project object */;
+}
