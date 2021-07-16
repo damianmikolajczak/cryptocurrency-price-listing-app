@@ -18,6 +18,8 @@
 		2DACF26E26A0B52000391B96 /* TickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */; };
 		2DACF27126A0CF1700391B96 /* TickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF27026A0CF1700391B96 /* TickerDetailViewController.m */; };
 		2DC578EE26A1B16600181E0C /* MarketsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC578ED26A1B16600181E0C /* MarketsTableViewCell.m */; };
+		2DC578F226A1CA3600181E0C /* mainScreen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC578F026A1CA3600181E0C /* mainScreen.PNG */; };
+		2DC578F326A1CA3600181E0C /* detailViewScreen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC578F126A1CA3600181E0C /* detailViewScreen.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		2DACF27026A0CF1700391B96 /* TickerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerDetailViewController.m; sourceTree = "<group>"; };
 		2DC578EC26A1B16600181E0C /* MarketsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketsTableViewCell.h; sourceTree = "<group>"; };
 		2DC578ED26A1B16600181E0C /* MarketsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketsTableViewCell.m; sourceTree = "<group>"; };
+		2DC578F026A1CA3600181E0C /* mainScreen.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainScreen.PNG; sourceTree = "<group>"; };
+		2DC578F126A1CA3600181E0C /* detailViewScreen.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailViewScreen.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		2DACF24926A0825D00391B96 /* Cryptocurrency price listing app */ = {
 			isa = PBXGroup;
 			children = (
+				2DC578EF26A1CA1200181E0C /* Images */,
 				2DACF24A26A0825D00391B96 /* AppDelegate.h */,
 				2DACF24B26A0825D00391B96 /* AppDelegate.m */,
 				2DACF24D26A0825D00391B96 /* SceneDelegate.h */,
@@ -92,6 +97,15 @@
 				2DACF25626A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld */,
 			);
 			path = "Cryptocurrency price listing app";
+			sourceTree = "<group>";
+		};
+		2DC578EF26A1CA1200181E0C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2DC578F126A1CA3600181E0C /* detailViewScreen.PNG */,
+				2DC578F026A1CA3600181E0C /* mainScreen.PNG */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +166,9 @@
 			files = (
 				2DACF25D26A0825F00391B96 /* LaunchScreen.storyboard in Resources */,
 				2DACF25A26A0825F00391B96 /* Assets.xcassets in Resources */,
+				2DC578F226A1CA3600181E0C /* mainScreen.PNG in Resources */,
 				2DACF25526A0825D00391B96 /* Main.storyboard in Resources */,
+				2DC578F326A1CA3600181E0C /* detailViewScreen.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
