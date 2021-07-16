@@ -17,6 +17,7 @@
 		2DACF26026A0825F00391B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF25F26A0825F00391B96 /* main.m */; };
 		2DACF26E26A0B52000391B96 /* TickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */; };
 		2DACF27126A0CF1700391B96 /* TickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DACF27026A0CF1700391B96 /* TickerDetailViewController.m */; };
+		2DC578EE26A1B16600181E0C /* MarketsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC578ED26A1B16600181E0C /* MarketsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerTableViewCell.m; sourceTree = "<group>"; };
 		2DACF26F26A0CF1700391B96 /* TickerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerDetailViewController.h; sourceTree = "<group>"; };
 		2DACF27026A0CF1700391B96 /* TickerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerDetailViewController.m; sourceTree = "<group>"; };
+		2DC578EC26A1B16600181E0C /* MarketsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketsTableViewCell.h; sourceTree = "<group>"; };
+		2DC578ED26A1B16600181E0C /* MarketsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketsTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +76,14 @@
 				2DACF24B26A0825D00391B96 /* AppDelegate.m */,
 				2DACF24D26A0825D00391B96 /* SceneDelegate.h */,
 				2DACF24E26A0825D00391B96 /* SceneDelegate.m */,
-				2DACF25026A0825D00391B96 /* ViewController.h */,
 				2DACF26F26A0CF1700391B96 /* TickerDetailViewController.h */,
 				2DACF27026A0CF1700391B96 /* TickerDetailViewController.m */,
+				2DACF25026A0825D00391B96 /* ViewController.h */,
 				2DACF25126A0825D00391B96 /* ViewController.m */,
 				2DACF26C26A0B52000391B96 /* TickerTableViewCell.h */,
 				2DACF26D26A0B52000391B96 /* TickerTableViewCell.m */,
+				2DC578EC26A1B16600181E0C /* MarketsTableViewCell.h */,
+				2DC578ED26A1B16600181E0C /* MarketsTableViewCell.m */,
 				2DACF25326A0825D00391B96 /* Main.storyboard */,
 				2DACF25926A0825F00391B96 /* Assets.xcassets */,
 				2DACF25B26A0825F00391B96 /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 				2DACF26026A0825F00391B96 /* main.m in Sources */,
 				2DACF25826A0825D00391B96 /* Cryptocurrency_price_listing_app.xcdatamodeld in Sources */,
 				2DACF27126A0CF1700391B96 /* TickerDetailViewController.m in Sources */,
+				2DC578EE26A1B16600181E0C /* MarketsTableViewCell.m in Sources */,
 				2DACF25226A0825D00391B96 /* ViewController.m in Sources */,
 				2DACF24C26A0825D00391B96 /* AppDelegate.m in Sources */,
 				2DACF24F26A0825D00391B96 /* SceneDelegate.m in Sources */,

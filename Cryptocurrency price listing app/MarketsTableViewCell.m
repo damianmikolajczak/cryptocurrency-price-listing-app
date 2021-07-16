@@ -1,28 +1,29 @@
 //
-//  TickerTableViewCell.m
+//  MarketsTableViewCell.m
 //  Cryptocurrency price listing app
 //
-//  Created by Damian Mikołajczak on 15/07/2021.
+//  Created by Damian Mikołajczak on 16/07/2021.
 //
 
-#import "TickerTableViewCell.h"
+#import "MarketsTableViewCell.h"
 
-@implementation TickerTableViewCell
-@synthesize name, symbol, price;
+@implementation MarketsTableViewCell
 
+@synthesize name, base, price;
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    
     // Setting the name label
     [name setTranslatesAutoresizingMaskIntoConstraints:NO];
     [[[name leadingAnchor] constraintEqualToAnchor:self.contentView.leadingAnchor constant:20.0] setActive:YES];
     [[[name centerYAnchor] constraintEqualToAnchor:self.contentView.centerYAnchor] setActive:YES];
     
     // Setting the symbol label
-    [symbol setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [[[symbol centerXAnchor] constraintEqualToAnchor:self.contentView.centerXAnchor] setActive:YES];
-    [[[symbol centerYAnchor] constraintEqualToAnchor:self.contentView.centerYAnchor] setActive:YES];
+    [base setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [[[base centerXAnchor] constraintEqualToAnchor:self.contentView.centerXAnchor] setActive:YES];
+    [[[base centerYAnchor] constraintEqualToAnchor:self.contentView.centerYAnchor] setActive:YES];
     
     // Setting the price label
     [price setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -32,6 +33,8 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
 }
 
 @end

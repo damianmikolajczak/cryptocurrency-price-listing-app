@@ -6,10 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "MarketsTableViewCell.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TickerDetailViewController : UIViewController
+@interface TickerDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property IBOutlet UIImageView *violetRect;
 @property IBOutlet UIImageView *blueRect;
 @property IBOutlet UILabel *priceInUSD;
@@ -17,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property IBOutlet UILabel *percentChangeLastHour;
 @property IBOutlet UILabel *percentChangeLastDay;
 @property IBOutlet UILabel *percentChangeLastWeek;
+@property IBOutlet UILabel *coinName;
+@property IBOutlet UITableView *marketsTable;
 @property NSDictionary *ticker;
 @end
 
