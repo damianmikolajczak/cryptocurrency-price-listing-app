@@ -25,7 +25,7 @@
 }
 
 - (void)fetchDataFromApi {
-    NSURL *url = [NSURL URLWithString:@"https://api.coinlore.net/api/tickers/?start=0&limit=20"];
+    NSURL *url = [NSURL URLWithString:@"https://api.coinlore.net/api/tickers/?start=0&limit=100"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request setHTTPMethod:@"GET"];
     

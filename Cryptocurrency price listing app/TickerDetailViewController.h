@@ -14,6 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TickerDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property IBOutlet UIImageView *violetRect;
 @property IBOutlet UIImageView *blueRect;
+@property IBOutlet UILabel *rank;
+@property IBOutlet UILabel *marketCup;
+@property IBOutlet UILabel *circulatingSupply;
+@property IBOutlet UILabel *volume24;
 @property IBOutlet UILabel *priceInUSD;
 @property IBOutlet UILabel *priceInBTC;
 @property IBOutlet UILabel *percentChangeLastHour;
